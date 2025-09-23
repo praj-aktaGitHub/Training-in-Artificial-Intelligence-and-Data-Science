@@ -91,7 +91,7 @@ Vendor secures entire stack. Customer manages users, IAM, and governance.
 ## Conclusion
 
 #### IaaS, PaaS, and SaaS are not competitors but complementary models.
-The most successful organizations use a layered approach — SaaS for business functions, PaaS for innovation, and IaaS for specialized or legacy workloads. The key is to align each model with the business outcome, not just the technology preference.
+The most successful organizations use a layered approach, SaaS for business functions, PaaS for innovation, and IaaS for specialized or legacy workloads. The key is to align each model with the business outcome, not just the technology preference.
 
 
 
