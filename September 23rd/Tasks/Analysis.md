@@ -12,7 +12,9 @@ Delivers fully functional software applications over the internet. Customer cons
 ## When to choose?
 
 Need control & customization → choose IaaS.
+
 Need speed & developer productivity → choose PaaS.
+
 Need ready-to-use business functionality → choose SaaS.
 
 ### Many organizations end up with a hybrid mix:
@@ -62,7 +64,7 @@ Moderate lock-in; platforms differ in runtime environments.
 ### SaaS:
 High lock-in; portability depends on data export capabilities.
 
-### Always check data export clauses in SaaS contracts. Many vendors charge to retrieve historical data when offboarding.
+#### Always check data export clauses in SaaS contracts. Many vendors charge to retrieve historical data when offboarding.
 
 ## Security & Compliance
 
@@ -72,11 +74,12 @@ Customer must patch OS, configure firewalls, manage keys. Provider handles datac
 Vendor patches OS/runtime. Customer secures code, configs, and data.
 ### SaaS:
 Vendor secures entire stack. Customer manages users, IAM, and governance.
-### The biggest SaaS security failures happen at the identity layer (e.g., no MFA, poor role management), not the provider’s infra.
+#### The biggest SaaS security failures happen at the identity layer (e.g., no MFA, poor role management), not the provider’s infra.
 
 ## Conclusion
 
-### IaaS, PaaS, and SaaS are not competitors but complementary models. The most successful organizations use a layered approach — SaaS for business functions, PaaS for innovation, and IaaS for specialized or legacy workloads. The key is to align each model with the business outcome, not just the technology preference.
+#### IaaS, PaaS, and SaaS are not competitors but complementary models.
+The most successful organizations use a layered approach — SaaS for business functions, PaaS for innovation, and IaaS for specialized or legacy workloads. The key is to align each model with the business outcome, not just the technology preference.
 
 
 
