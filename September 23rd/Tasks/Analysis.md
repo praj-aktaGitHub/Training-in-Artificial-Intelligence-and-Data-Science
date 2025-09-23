@@ -28,25 +28,37 @@ IaaS for legacy or specialized workloads.
 ### IaaS
 
 Best for: Enterprises needing full control, legacy app migration, custom networking/security setups.
+
 Examples: AWS EC2, Azure VMs, Google Compute Engine.
+
 Hidden costs: data egress, snapshot storage, idle resources.
+
 Security risk: misconfigured firewalls/IAM roles are a major breach source.
+
 Optimization lever: reserved instances and spot instances can reduce cost by 60–80%.
 
 ### PaaS
 
 Best for: Rapid application development, startups, teams with limited ops resources.
+
 Examples: Heroku, Azure App Service, Google App Engine.
+
 Code lock-in: apps may need re-platforming if you change vendor.
+
 Scaling trade-off: great for web workloads, but long-running background jobs may hit platform limits.
+
 Compliance edge: vendor manages runtime patching, which reduces vulnerability windows.
 
 ### SaaS
 
 Best for: Business users needing standard capabilities (email, CRM, HR).
+
 Examples: Salesforce, Google Workspace, Microsoft 365.
+
 Functional lock-in: hardest to migrate away from due to data formats + user adoption.
+
 Compliance issue: data residency and GDPR constraints are sometimes a blocker.
+
 Neglected risk: SaaS still requires strong IAM (SSO, MFA, role hygiene). Many orgs forget this.
 
 ## Model Advantages Limitations
