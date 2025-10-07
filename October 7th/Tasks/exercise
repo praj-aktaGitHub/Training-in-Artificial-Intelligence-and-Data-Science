@@ -1,1 +1,41 @@
+Exercise: Build an Employee Management
+API using FastAPI
+Objective
+Create a REST API to manage employees using FastAPI. You must implement all CRUD
+operations — GET, POST, PUT, and DELETE — and test them in Postman.
+Requirements
+1. Create a new file named employee_api.py .
+2. Define a Pydantic model Employee with:
+id (int)
+name (str)
+department (str)
+salary (float)
+3. Create an in-memory list to store employee data (2–3 sample employees).
+4. Implement the following endpoints:
+HTTP Method Endpoint Description
+GET /employees Return all employees
+GET /employees/{emp_id} Return details of a single employee by ID
+POST /employees Add a new employee
+PUT /employees/{emp_id} Update an existing employee by ID
+DELETE /employees/{emp_id} Delete an employee by ID
 
+Exercise Tasks
+1. Add at least 3 employees to your in-memory list.
+2. Use POST to add a new employee via Postman.
+3. Use GET to:
+Retrieve all employees
+Retrieve a specific employee by ID
+4. Use PUT to update:
+An employee’s department or salary.
+5. Use DELETE to:
+Remove an employee from the list.
+
+6. Try sending invalid data (missing fields, wrong data types) and observe
+FastAPI’s validation behavior.
+7. Try deleting or updating an employee that doesn’t exist — what status code do
+you get?
+
+Bonus Challenges (Optional)
+Return a 404 error if an employee is not found.
+Add a check to prevent adding duplicate IDs.
+Add a route /employees/count that returns the total number of employees.
