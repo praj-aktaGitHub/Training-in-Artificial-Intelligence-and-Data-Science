@@ -1,0 +1,3 @@
+OrderID,CustomerID,ProductID,Quantity,OrderDate,Name,Country,Segment,ProductName,Category,Price,TotalAmount,OrderMonth
+O005,C005,P102,10,2024-10-17,Arjun,India,Corporate,Mouse,Accessories,20,200,10
+O003,C001,P103,3,2024-10-15,Neha,India,Individual,Keyboard,Accessories,35,105,10
