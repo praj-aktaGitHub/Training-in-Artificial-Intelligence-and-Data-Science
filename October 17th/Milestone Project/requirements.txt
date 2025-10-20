@@ -1,0 +1,6 @@
+pymysql
+fastapi
+pydantic
+uvicorn
+pandas
+pika
