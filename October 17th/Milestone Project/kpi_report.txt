@@ -1,0 +1,23 @@
+   KPI Report   
+
+Most visited doc:
+Name: Dr. Patel
+Specialization: General Physician
+Visit Count: 2
+
+Avg cost per visit per patient:
+Neha (P001): 700.00
+Arjun (P002): 1200.00
+Sophia (P003): 1500.00
+Ravi (P004): 1100.00
+Meena (P005): 1300.00
+
+No. of visits per patient:
+P001: 2 visits
+P002: 1 visits
+P003: 1 visits
+P004: 1 visits
+P005: 1 visits
+
+Monthly Revenue:
+2025-10: ₹6500.00
