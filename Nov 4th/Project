@@ -1,0 +1,26 @@
+Bro I need to develop a full stack project can you please help me decide a very smart topic which is requiring for real time industrial problem. Here's what things expected from me are given:
+
+-Define problem statement
+
+Choose project type(has to be ai bot related )(chatbot, summarizer, recommender)
+
+Draft architecture diagram
+
+
+-Select tech stack
+
+Setup GitHub repo, Azure Services and documentation structure
+
+
+
+Problem Statement
+
+Modern software systems generate massive and complex log files that make it difficult for developers and DevOps engineers to quickly identify errors, performance issues, and root causes. Manual log review is time-consuming and often delays debugging and incident resolution.
+
+
+---
+
+💡 Solution Statement
+
+To solve this, we propose an AI-powered Code Log Summarizer Bot that automatically analyzes and summarizes large log files using Natural Language Processing (NLP). The bot extracts key issues, error patterns, and root causes, then provides concise summaries and actionable insights. Built with Azure OpenAI, FastAPI, and a React dashboard, it enables developers to upload logs, view AI-generated summaries, and visualize trends — drastically improving debugging efficiency and incident response time.
+
