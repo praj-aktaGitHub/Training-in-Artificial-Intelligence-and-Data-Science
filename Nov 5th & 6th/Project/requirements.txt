@@ -1,0 +1,5 @@
+streamlit==1.19.0
+openai==0.27.0
+langchain==0.0.176
+python-dotenv==0.20.0
+altair==4.2.2
