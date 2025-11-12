@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Creator | Collab Finder 🤝</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo">Collab Finder 🤝</h1>
+        </nav>
+
+        <div class="form-section">
+            <h2>💼 Find a Creator</h2>
+            <p>Fill in your business details to discover the right creators for your brand.</p>
+
+            <form id="creatorForm" class="form-card">
+                <div class="input-group">
+                    <label for="businessName">Business / Product Name</label>
+                    <input type="text" id="businessName" name="businessName" placeholder="Enter your business or product name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Describe your product or campaign" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+            <div id="successMsg" class="success hidden">✅ Form submitted successfully!</div>
+
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Collab Finder. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const form = document.getElementById('creatorForm');
+        const msg = document.getElementById('successMsg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            msg.classList.remove('hidden');
+            form.reset();
+        });
+    </script>
+</body>
+</html>

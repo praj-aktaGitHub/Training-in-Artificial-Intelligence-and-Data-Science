@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Collab | Collab Finder 🤝</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo">Collab Finder 🤝</h1>
+        </nav>
+
+        <div class="form-section">
+            <h2>🎥 Find Collab</h2>
+            <p>Enter your creator details to get matched with the perfect brand collaborations.</p>
+
+            <form id="collabForm" class="form-card">
+                <div class="input-group">
+                    <label for="creatorId">Creator ID</label>
+                    <input type="text" id="creatorId" name="creatorId" placeholder="Enter your creator ID" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="publicName">Public Name</label>
+                    <input type="text" id="publicName" name="publicName" placeholder="Enter your public name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="instaId">Instagram ID/ Youtube id/ LinkdIn id</label>
+                    <input type="text" id="instaId" name="instaId" placeholder="Enter your Instagram ID" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="followers">Followers</label>
+                    <input type="number" id="followers" name="followers" placeholder="Total followers count" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="engagement">Average Engagement (%)</label>
+                    <input type="number" id="engagement" name="engagement" placeholder="Enter your average engagement rate" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="region">Audience Region</label>
+                    <input type="text" id="region" name="region" placeholder="Enter main audience region" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="ageGroup">Typical Age Group</label>
+                    <input type="text" id="ageGroup" name="ageGroup" placeholder="Enter typical audience age group" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="reelEngagement">Reel Engagement (%)</label>
+                    <input type="number" id="reelEngagement" name="reelEngagement" placeholder="Enter reel engagement rate" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="postEngagement">Post Engagement (%)</label>
+                    <input type="number" id="postEngagement" name="postEngagement" placeholder="Enter post engagement rate" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="storyEngagement">Story Engagement (%)</label>
+                    <input type="number" id="storyEngagement" name="storyEngagement" placeholder="Enter story engagement rate" required>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+            <div id="successMsg" class="success hidden">✅ Form submitted successfully!</div>
+
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Collab Finder. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const form = document.getElementById('collabForm');
+        const msg = document.getElementById('successMsg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            msg.classList.remove('hidden');
+            form.reset();
+        });
+    </script>
+</body>
+</html>
